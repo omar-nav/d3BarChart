@@ -8,6 +8,3 @@ d3.select(".chart")
     .append("div")
     .style("width", function(d) { return d + "px"; })
     .text(function(d) { return '\u00A3 ' + d; });
-
-
-d3.selectAll("p").style("color", "orange");
