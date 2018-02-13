@@ -1,18 +1,21 @@
 .chart div {
-  font: 10px Futura;
   background-color: lightcoral;
   text-align: left;
   padding: 2px;
   margin: 1px;
   color: antiquewhite;
-  font-size: medium;
 }
 
 h1 {
     text-align: center;
-    font: xx-large Futura;
+    font: 300% Futura;
     color: gray;
 }
 body{
     background-color: antiquewhite;
+    font: 150% Futura;
+    color: gray;
+}
+td{
+    text-align: center;
 }
