@@ -1,8 +1,18 @@
 .chart div {
-  font: 10px sans-serif;
-  background-color: steelblue;
-  text-align: right;
-  padding: 3px;
+  font: 10px Futura;
+  background-color: lightcoral;
+  text-align: left;
+  padding: 2px;
   margin: 1px;
-  color: white;
+  color: antiquewhite;
+  font-size: medium;
+}
+
+h1 {
+    text-align: center;
+    font: xx-large Futura;
+    color: gray;
+}
+body{
+    background-color: antiquewhite;
 }
