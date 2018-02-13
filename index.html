@@ -3,17 +3,28 @@
 <head>
 	<script src="https://d3js.org/d3.v3.min.js"></script>
 	<link rel="stylesheet" href="index.css">
-<!--
+    <script src="table.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.14.2/math.min.js"></script>
 
-<link rel="stylesheet" href="normalize.css">
+    <!--
 
--->
+    <link rel="stylesheet" href="normalize.css">
+
+    -->
+
 </head>
 <body>
 <h1>
     another bar graph
 </h1>
+
 <div class="chart"></div>
+<br>
+<table border="2" align="center">
+    <tr><td>sum</td><td>average</td><td>median</td></tr>
+    <tr><td><script>document.write("\u00A3 " + sum.toLocaleString());</script></td><td><script>document.write("\u00A3 " + avg.toLocaleString());</script></td><td><script>document.write("\u00A3 " + median.toLocaleString());</script></td></tr>
+</table>
 	<script src="index.js"></script>
 </body>
 </html>
+
